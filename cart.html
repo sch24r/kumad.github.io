@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Kumad</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dark-mode.css"> <!-- New dark mode CSS -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="top-nav">
+            <div class="logo">
+                <img src="kumad.png" alt="Kumad">
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search Kumad" class="search-input">
+                <button class="search-btn">🔍</button>
+            </div>
+            <div class="user-actions">
+                <button class="log-in">Account Center</button>
+            </div>
+        </nav>
+        <div class="nav-links">
+            <ul>
+                <li>Home</li>
+                <li>Popular</li>
+                <li>Communities</li>
+                <li>Wiki</li>
+                <li>My Profile</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sidebar -->
+        <aside class="left-sidebar">
+            <ul class="sidebar-topics">
+                <li>Highlights</li>
+                <li>Local Trends</li>
+                <li>Weekly Picks</li>
+                <li>Fun Facts</li>
+                <li>About Kumad</li>
+                <li>Help</li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <section class="content">
+            <h1 class="shopping-cart-title">Shopping Cart</h1>
+            <div class="shopping-cart-container">
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <img src="rice.jpg" alt="Rice" class="cart-item-img">
+                        <div class="cart-item-info">
+                            <span class="item-category">Grain</span>
+                            <span class="item-name">Jasmine Rice</span>
+                            <div class="item-quantity">
+                                <button class="quantity-btn"> - </button>
+                                <input type="text" value="1" readonly>
+                                <button class="quantity-btn">+</button>
+                            </div>
+                            <button class="remove-item red-box">X</button>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <img src="chicken.jpg" alt="Chicken" class="cart-item-img">
+                        <div class="cart-item-info">
+                            <span class="item-category">Meat</span>
+                            <span class="item-name">Chicken Breast</span>
+                            <div class="item-quantity">
+                                <button class="quantity-btn"> - </button>
+                                <input type="text" value="1" readonly>
+                                <button class="quantity-btn">+</button>
+                            </div>
+                            <button class="remove-item">X</button>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <img src="tomato.jpg" alt="Tomato" class="cart-item-img">
+                        <div class="cart-item-info">
+                            <span class="item-category">Vegetable</span>
+                            <span class="item-name">Fresh Tomatoes</span>
+                            <div class="item-quantity">
+                                <button class="quantity-btn"> - </button>
+                                <input type="text" value="1" readonly>
+                                <button class="quantity-btn">+</button>
+                            </div>
+                            <button class="remove-item">X</button>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <img src="onion.jpg" alt="Onion" class="cart-item-img">
+                        <div class="cart-item-info">
+                            <span class="item-category">Vegetable</span>
+                            <span class="item-name">Red Onions</span>
+                            <div class="item-quantity">
+                                <button class="quantity-btn"> - </button>
+                                <input type="text" value="1" readonly>
+                                <button class="quantity-btn">+</button>
+                            </div>
+                            <button class="remove-item">X</button>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <img src="garlic.jpg" alt="Garlic" class="cart-item-img">
+                        <div class="cart-item-info">
+                            <span class="item-category">Herbs</span>
+                            <span class="item-name">Garlic</span>
+                            <div class="item-quantity">
+                                <button class="quantity-btn"> - </button>
+                                <input type="text" value="1" readonly>
+                                <button class="quantity-btn">+</button>
+                            </div>
+                            <button class="remove-item">X</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+            <div class="cart-summary">
+                <h3>Summary</h3>
+                <p>ITEMS: 5</p>
+                <button class="save-btn">SAVE</button>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
